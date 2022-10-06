@@ -11,9 +11,13 @@ torchvision 0.9.0+cu111
 monai 0.4.0
 ```
 # Dataset
-
+ACDC: [Download](https://pan.baidu.com/s/1LeaJ9Hh_AEgfkilEACApRQ)  [code: czdk]
 
 # Train
 ```
 python train.py
 ```
+
+# MONAI
+Since our Predictor has multiple outputs, the sliding window inference function of the MONAI should be added with the index hyperparameter.
+
